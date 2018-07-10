@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="https://fonts.googleapis.com/css?family=Montserrat:600"rel="stylesheet">
+</head>
+<style>
+    * {
+     box-sizing: border-box;
+     }
+
+    body {
+     margin: 0;
+     font-size: 18px;
+     font-family: Montserrat;
+     background-color: #0000ff;
+     }
+
+
+    .verticalleft {
+     padding:20px;
+     color: #0000ff;
+     background-color: #fff;
+     position: fixed;
+     top: 40%;
+     left:0;
+     z-index: 105;
+     transform: rotate(90deg);
+     transform-origin: 20% 20%;
+     border: 1px solid #0000ff;
+     box-shadow:-0px -0px 50px black;
+     }
+
+    .verticalright {
+     padding:20px;
+     color: #0000ff;
+     background-color: #fff;
+     position: fixed;
+     top: 40%;
+     right:0;
+     z-index: 105;
+     transform: rotate(270deg);
+     transform-origin: 90% 60%;
+     border: 1px solid #0000ff;
+     box-shadow:-0px -0px 50px black;
+     }
+
+    .verticalleft:hover, .verticalright:hover {
+     background-color: #0000ff;
+     color: white;
+     border: 2px solid #fff;
+     }
+
+    body {
+     margin: 0;
+     font-family: Montserrat;
+     background-color: #0000ff;
+     }
+
+    a {
+     color: black;
+     }
+
+    a:hover {
+     text-decoration: none;
+     background-color: #0000ff;
+     }
+
+    img:hover {
+     opacity: 0.4;
+     }
+
+    .stick {
+     text-align: center;
+     padding: 0px;
+     position: sticky;
+     z-index: 106;
+     background-color:#fff;
+     color:#0000ff;
+     padding:10px;
+     top: 0;
+     margin-top:0px;
+     border-bottom: 1px solid black;
+     box-shadow:-0px -0px 50px black;
+     }
+
+    .row {
+     display: -ms-flexbox; /* IE10 */
+     display: flex;
+     -ms-flex-wrap: wrap; /* IE10 */
+     flex-wrap: wrap;
+     padding: 0 4px;
+     }
+
+/* Create four equal columns that sits next to each other */
+    .column {
+     -ms-flex: 25%; /* IE10 */
+     flex: 25%;
+     max-width: 25%;
+     padding: 0 4px;
+     }
+
+    .column img {
+     margin-top: 8px;
+     vertical-align: middle;
+     }
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      -ms-flex: 50%;
+      flex: 50%;
+      max-width: 50%;
+      }
+    }
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      -ms-flex: 100%;
+      flex: 100%;
+      max-width: 100%;
+      }
+     }
+
+</style>
+
+<body>
+
+<!-- Header -->
+  <div class="stick">Visit my <a href="https://www.behance.net/wearestill1f3b">behance</a>
+  page for more information about the projects</div>
+
+<!-- Left + Right Buttons -->
+<a style="display:block" href="cv.html"><div class="verticalleft">Curriculum Vitae</div></a>
+<a style="display:block" href="portfolio.html"><div class="verticalright">Portfolio</div></a>
+
+<!-- Photo Grid -->
+<div class="row">
+  <div class="column">
+    <a href="https://www.behance.net/wearestill1f3b"><img src="img/tinos2018.jpg" style="width:100%"></a>
+    <a href="https://www.behance.net/wearestill1f3b"><img src="img/simatoros.jpg" style="width:100%">
+    <a href="https://www.behance.net/wearestill1f3b"><img src="img/trouble.jpg" style="width:100%">
+    <a href="https://www.behance.net/wearestill1f3b"><img src="img/superstition.jpg" style="width:100%">
+    <a href="https://www.behance.net/wearestill1f3b"><img src="img/revisited2.jpg" style="width:100%">
+    <a href="https://www.behance.net/wearestill1f3b"><img src="img/reassembly.jpg" style="width:100%">
+    <a href="https://www.behance.net/wearestill1f3b"><img src="img/noscript.jpg" style="width:100%">
+    <a href="https://www.behance.net/wearestill1f3b"><img src="img/journeydream.jpg" style="width:100%">
+    <a href="https://www.behance.net/wearestill1f3b"><img src="img/inmute3.jpg" style="width:100%">
+    <a href="https://www.behance.net/wearestill1f3b"><img src="img/bbinappropriate.jpg" style="width:100%">
+  </div>
+  <div class="column">
+    <a href="https://www.behance.net/wearestill1f3b"><img src="img/bb2018.jpg" style="width:100%">
+    <a href="https://www.behance.net/wearestill1f3b"><img src="img/holo7.jpg" style="width:100%">
+    <a href="https://www.behance.net/wearestill1f3b"><img src="img/grownup.jpg" style="width:100%">
+    <a href="https://www.behance.net/wearestill1f3b"><img src="img/holo6.jpg" style="width:100%">
+    <a href="https://www.behance.net/wearestill1f3b"><img src="img/fragments.jpg" style="width:100%">
+    <a href="https://www.behance.net/wearestill1f3b"><img src="img/bbdivine.jpg" style="width:100%">
+    <a href="https://www.behance.net/wearestill1f3b"><img src="img/revisited1.jpg" style="width:100%">
+    <a href="https://www.behance.net/wearestill1f3b"><img src="img/holo5.jpg" style="width:100%">
+    <a href="https://www.behance.net/wearestill1f3b"><img src="img/bbugly.jpg" style="width:100%">
+    <a href="https://www.behance.net/wearestill1f3b"><img src="img/revisited1.jpg" style="width:100%">
+    <a href="https://www.behance.net/wearestill1f3b"><img src="img/ppublic2.jpg" style="width:100%">
+
+  </div>
+  <div class="column">
+    <a href="https://www.behance.net/wearestill1f3b"><img src="img/inmute2.jpg" style="width:100%">
+    <a href="https://www.behance.net/wearestill1f3b"><img src="img/holo4.jpg" style="width:100%">
+    <a href="https://www.behance.net/wearestill1f3b"><img src="img/bbcat.gif" style="width:100%">
+    <a href="https://www.behance.net/wearestill1f3b"><img src="img/ppublic0.jpg" style="width:100%">
+    <a href="https://www.behance.net/wearestill1f3b"><img src="img/gravity.jpg" style="width:100%">
+    <a href="https://www.behance.net/wearestill1f3b"><img src="img/holoedw.jpg" style="width:100%">
+    <a href="https://www.behance.net/wearestill1f3b"><img src="img/projection_3.gif" style="width:100%">
+    <a href="https://www.behance.net/wearestill1f3b"><img src="img/bbexotica.jpg" style="width:100%">
+    <a href="https://www.behance.net/wearestill1f3b"><img src="img/artemislogo.jpg" style="width:100%">
+    <a href="https://www.behance.net/wearestill1f3b"><img src="img/claroweb.gif" style="width:100%">
+
+  </div>
+  <div class="column">
+    <a href="https://www.behance.net/wearestill1f3b"><img src="img/cabanon.jpg" style="width:100%">
+    <a href="https://www.behance.net/wearestill1f3b"><img src="img/corebb.gif" style="width:100%">
+    <a href="https://www.behance.net/wearestill1f3b"><img src="img/whitenoise.jpg" style="width:100%">
+    <a href="https://www.behance.net/wearestill1f3b"><img src="img/artemisweb.jpg" style="width:100%">
+    <a href="https://www.behance.net/wearestill1f3b"><img src="img/diagonal.gif" style="width:100%">
+    <a href="https://www.behance.net/wearestill1f3b"><img src="img/holo3.jpg" style="width:100%">
+    <a href="https://www.behance.net/wearestill1f3b"><img src="img/ppblic1.jpg" style="width:100%">
+    <a href="https://www.behance.net/wearestill1f3b"><img src="img/holo2.jpg" style="width:100%">
+    <a href="https://www.behance.net/wearestill1f3b"><img src="img/sandcastle.jpg" style="width:100%">
+    <a href="https://www.behance.net/wearestill1f3b"><img src="img/holo1.jpg" style="width:100%">
+    <a href="https://www.behance.net/wearestill1f3b"><img src="img/bbday.gif" style="width:100%">
+    <a href="https://www.behance.net/wearestill1f3b"><img src="img/bbeye.jpg" style="width:100%">
+    <a href="https://www.behance.net/wearestill1f3b"><img src="img/bbxmas.gif" style="width:100%">
+  </div>
+</div>
+
+</body>
+</html>
